@@ -16,3 +16,8 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+r = int(input("Raduis "))
+h = int(input("Height "))
+sa = math.pi*r(r+(math.sqrt((h**2) + (r**2))))
+print(sa)
